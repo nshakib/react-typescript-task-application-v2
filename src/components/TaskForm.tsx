@@ -46,7 +46,7 @@ const TaskForm = ({ addTodo, edit }: TodoFormProps) => {
           <input
             className='form-control new-post-label'
             type='text'
-            placeholder='new task'
+            placeholder='Enter your new task'
             onChange={handleChange}
             value={state}
           />
